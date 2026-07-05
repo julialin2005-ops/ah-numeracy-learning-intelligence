@@ -106,29 +106,20 @@ The deployed app sits behind tutor/parent authentication, so it isn't included a
 
 ## Running Locally
 
-**Requirements:** Bun, a Supabase project, a Gemini API key.
+**Requirements:** Bun, a Supabase project.
 
 ```bash
 git clone https://github.com/julialin2005-ops/ah-numeracy-learning-intelligence.git
 cd ah-numeracy-learning-intelligence
 bun install
-```
-
-Create a `.env` file in the project root:
-
-```
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-For this pilot, the repository connects directly to the live pilot Supabase project. The connection is configured in `src/lib/supabase-config.ts`; no additional Supabase environment variables are required.
-
-**Note:** RLS is currently disabled on this pilot database (single-tutor, single-parent scale). Please read/explore only — avoid writing new sessions or editing existing records, since this is the same database backing the real pilot relationship shown in the demo video.
-
-```bash
 bun run dev
 ```
 
-App runs at `localhost:8080`.
+App runs at `localhost:8080`. No `.env` file or API key is required to view existing results — the app connects directly to the live pilot Supabase database (configured in `src/lib/supabase-config.ts`).
+
+**To see a completed analysis:** go to **Sessions**, then click the saved session dated **26/06/2026 (code S6)** under Session History. This loads the full AI-generated report — Session Intelligence, Evidence & Strategy Signals, and Tutor Next Steps — from a real tutoring session, already analysed.
+
+**Note:** RLS is currently disabled on this pilot database (single-tutor, single-parent scale). Please read/explore only — avoid submitting new transcripts for analysis or editing existing records, since this is the same database backing the real pilot relationship shown in the demo video. Running a new analysis requires a Gemini API key (`VITE_GEMINI_API_KEY` in `.env`), which is intentionally not included here.
 
 ## Repository Structure
 

@@ -1,0 +1,150 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-muted2: var(--muted2);
+  --color-status-blue-bg: var(--status-blue-bg);
+  --color-status-blue-fg: var(--status-blue-fg);
+  --color-status-green-bg: var(--status-green-bg);
+  --color-status-green-fg: var(--status-green-fg);
+  --color-status-amber-bg: var(--status-amber-bg);
+  --color-status-amber-fg: var(--status-amber-fg);
+  --color-status-red-bg: var(--status-red-bg);
+  --color-status-red-fg: var(--status-red-fg);
+  --color-status-orange-bg: var(--status-orange-bg);
+  --color-status-orange-fg: var(--status-orange-fg);
+  --color-status-gray-bg: var(--status-gray-bg);
+  --color-status-gray-fg: var(--status-gray-fg);
+  --color-status-teal-bg: var(--status-teal-bg);
+  --color-status-teal-fg: var(--status-teal-fg);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Astro Hippo — neutral off-white workspace */
+  --background: #f0ede8;
+  --foreground: #1a1a1a;
+  --surface: #ffffff;          /* card surface */
+  --surface-2: #f5f5f4;         /* metric tile */
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #1a1a1a;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f4;
+  --secondary-foreground: #1a1a1a;
+  --muted: #f5f5f4;
+  --muted-foreground: #6b7280;
+  --muted2: #9ca3af;
+  --accent: #f5f5f4;
+  --accent-foreground: #1a1a1a;
+  --destructive: #791F1F;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0,0,0,0.10);
+  --input: rgba(0,0,0,0.20);
+  --ring: #378ADD;
+
+  /* Status tokens (paired bg / text) */
+  --status-blue-bg: #E6F1FB; --status-blue-fg: #0C447C;
+  --status-green-bg: #EAF3DE; --status-green-fg: #27500A;
+  --status-amber-bg: #FAEEDA; --status-amber-fg: #633806;
+  --status-red-bg: #FCEBEB; --status-red-fg: #791F1F;
+  --status-orange-bg: #FAECE7; --status-orange-fg: #712B13;
+  --status-gray-bg: #F1EFE8; --status-gray-fg: #5F5E5A;
+  --status-teal-bg: #E1F5EE; --status-teal-fg: #0F6E56;
+}
+
+.dark {
+  --background: #1c1c1c;
+  --foreground: #f0f0f0;
+  --surface: #262626;
+  --surface-2: #2e2e2e;
+  --card: #262626;
+  --card-foreground: #f0f0f0;
+  --popover: #262626;
+  --popover-foreground: #f0f0f0;
+  --primary: #f0f0f0;
+  --primary-foreground: #1c1c1c;
+  --secondary: #2e2e2e;
+  --secondary-foreground: #f0f0f0;
+  --muted: #2e2e2e;
+  --muted-foreground: #a0a0a0;
+  --muted2: #6b6b6b;
+  --accent: #2e2e2e;
+  --accent-foreground: #f0f0f0;
+  --destructive: #F7C1C1;
+  --destructive-foreground: #1c1c1c;
+  --border: rgba(255,255,255,0.10);
+  --input: rgba(255,255,255,0.20);
+  --ring: #378ADD;
+
+  --status-blue-bg: #0C447C; --status-blue-fg: #B5D4F4;
+  --status-green-bg: #27500A; --status-green-fg: #C0DD97;
+  --status-amber-bg: #633806; --status-amber-fg: #FAC775;
+  --status-red-bg: #791F1F; --status-red-fg: #F7C1C1;
+  --status-orange-bg: #712B13; --status-orange-fg: #F5C4B3;
+  --status-gray-bg: #444441; --status-gray-fg: #D3D1C7;
+  --status-teal-bg: #085041; --status-teal-fg: #9FE1CB;
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+/* Astro Hippo primitives */
+@layer components {
+  .ah-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 17px;
+  }
+  .ah-card-title { font-size: 13px; font-weight: 600; margin-bottom: 9px; }
+  .ah-card-sub  { font-size: 12px; color: var(--muted-foreground); margin-bottom: 8px; line-height: 1.55; }
+  .ah-metric    { background: var(--surface-2); border-radius: 8px; padding: 11px 13px; }
+  .ah-metric-label { font-size: 11px; color: var(--muted-foreground); margin-bottom: 2px; }
+  .ah-metric-val   { font-size: 21px; font-weight: 600; color: var(--foreground); }
+  .ah-metric-val-sm{ font-size: 13px; font-weight: 600; padding-top: 3px; line-height: 1.3; }
+  .ah-metric-sub   { font-size: 11px; color: var(--muted-foreground); margin-top: 1px; }
+  .ah-badge   { font-size: 11px; padding: 2px 7px; border-radius: 8px; white-space: nowrap; display: inline-block; }
+  .ah-slabel  { font-size: 11px; font-weight: 500; letter-spacing: .07em; color: var(--muted2); text-transform: uppercase; margin: 10px 0 6px; }
+  .ah-divider { border-bottom: 0.5px solid var(--border); }
+}

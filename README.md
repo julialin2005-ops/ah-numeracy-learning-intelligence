@@ -2,7 +2,6 @@
 
 > Google × Kaggle AI Agents Capstone Project (2026)
 
-![Dashboard](demo-screenshot.png)
 
 AH is an AI-powered Numeracy Learning Intelligence platform that transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence, helping tutors understand what changed in every learning session.
 

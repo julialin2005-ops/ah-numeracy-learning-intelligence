@@ -18,10 +18,10 @@ export const disableDemo = () => {
 export const DEMO_STUDENT_SENTINEL_ID = "demo-student-a";
 
 export const DEMO_STUDENT = {
-  id: "a27f7087-845a-4fd2-a5ff-9ab718c409d7",
-  name: "Student A",
-  pseudonym: "Student A",
-  full_name: "Student A",
+  id: "61f63e83-1aff-4797-b077-67ae6551e6f8",
+  name: "Adrian",
+  pseudonym: "Adrian",
+  full_name: "Adrian",
   grade: "1",
   status: "active",
   phase: "Foundation",

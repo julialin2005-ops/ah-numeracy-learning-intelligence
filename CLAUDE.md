@@ -218,3 +218,4 @@ Save output to `session_analysis` table only. Never to `sessions`.
 - The `skills` table — 21 canonical skills, treat as read-only
 - The 5 nav items — no additions for capstone scope
 - Any existing session analysis or mastery data
+

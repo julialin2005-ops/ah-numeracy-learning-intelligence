@@ -9,4 +9,17 @@
       "port": 5173
     }
   ]
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ah",
+      "runtimeExecutable": "npx",
+      "env": {
+        "PATH": "/usr/local/bin:/usr/bin:/bin"
+      },
+      "runtimeArgs": ["--yes", "vite", "dev", "--port", "5173"],
+      "port": 5173
+    }
+  ]
 }

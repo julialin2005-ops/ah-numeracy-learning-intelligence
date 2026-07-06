@@ -1,17 +1,5 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
-import mascotAsset from "@/assets/astro-hippo.jpeg.asset.json";
-
-export function MascotImage({ size = 40, className }: { size?: number; className?: string }) {
-  return (
-    <img
-      src={mascotAsset.url}
-      alt="AH mascot"
-      className={cn("rounded-full object-cover", className)}
-      style={{ width: size, height: size }}
-    />
-  );
-}
 
 export function EmptyState({
   title,
@@ -24,7 +12,6 @@ export function EmptyState({
 }) {
   return (
     <div className="flex flex-col items-center text-center py-6 px-4">
-      <MascotImage size={56} className="opacity-90 mb-3" />
       <div className="text-sm font-medium">{title}</div>
       {description && (
         <div className="text-xs text-muted-foreground mt-1 max-w-xs">{description}</div>

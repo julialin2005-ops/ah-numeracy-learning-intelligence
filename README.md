@@ -138,7 +138,3 @@ docs/            # Synthesis layer design, learning taxonomy
 AH introduces the category of **Numeracy Learning Intelligence**.
 
 Today, AH analyses individual tutoring sessions. The next stage is longitudinal learning intelligence — synthesising evidence across many sessions to help tutors understand mastery progression, retention, intervention effectiveness, and long-term learning outcomes.
-
-## License
-
-MIT

@@ -3,7 +3,7 @@
 // RLS still applies, so denied tables come back as empty arrays.
 import { sdb } from "./supabase-unsafe";
 
-export const DEMO_KEY = "astro_demo";
+export const DEMO_KEY = "ah_demo";
 
 export const isDemo = (): boolean => true;
 
@@ -30,7 +30,7 @@ export const DEMO_STUDENT = {
 
 export const DEMO_USER = {
   id: "demo-admin",
-  email: "demo@astrohippo.local",
+  email: "demo@ah.local",
   role: "admin" as const,
   profile: { role: "admin", name: "Demo Admin" } as Record<string, any>,
   students: [DEMO_STUDENT],

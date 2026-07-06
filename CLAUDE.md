@@ -1,4 +1,4 @@
-# Astro Hippo (AH) — Project Context for Claude
+# AH — Project Context for Claude
 
 ## What this is
 

@@ -6,7 +6,7 @@ export function MascotImage({ size = 40, className }: { size?: number; className
   return (
     <img
       src={mascotAsset.url}
-      alt="Astro Hippo"
+      alt="AH mascot"
       className={cn("rounded-full object-cover", className)}
       style={{ width: size, height: size }}
     />

@@ -51,7 +51,7 @@
 :root {
   --radius: 0.5rem;
 
-  /* Astro Hippo — neutral off-white workspace */
+  /* AH — neutral off-white workspace */
   --background: #f0ede8;
   --foreground: #1a1a1a;
   --surface: #ffffff;          /* card surface */
@@ -129,7 +129,7 @@
   }
 }
 
-/* Astro Hippo primitives */
+/* AH primitives */
 @layer components {
   .ah-card {
     background: var(--surface);

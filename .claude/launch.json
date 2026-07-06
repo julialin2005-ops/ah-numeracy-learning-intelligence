@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "astro-hippo",
+      "name": "ah",
       "runtimeExecutable": "npx",
       "env": { "PATH": "/usr/local/bin:/usr/bin:/bin" },
       "runtimeArgs": ["--yes", "vite", "dev", "--port", "5173"],

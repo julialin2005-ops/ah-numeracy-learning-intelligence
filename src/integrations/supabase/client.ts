@@ -6,14 +6,14 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 import {
-  ASTRO_HIPPO_SUPABASE_URL,
-  ASTRO_HIPPO_SUPABASE_PUBLISHABLE_KEY,
+  AH_SUPABASE_URL,
+  AH_SUPABASE_PUBLISHABLE_KEY,
 } from '@/lib/supabase-config';
 
 function createSupabaseClient() {
   return createClient<Database>(
-    ASTRO_HIPPO_SUPABASE_URL,
-    ASTRO_HIPPO_SUPABASE_PUBLISHABLE_KEY,
+    AH_SUPABASE_URL,
+    AH_SUPABASE_PUBLISHABLE_KEY,
     {
       auth: {
         storage: typeof window !== 'undefined' ? localStorage : undefined,

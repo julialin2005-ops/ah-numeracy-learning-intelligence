@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import { getNotifications, markNotificationRead } from "@/lib/data.functions";
-import { Card, EmptyState, MascotImage } from "@/components/Primitives";
+import { Card, EmptyState } from "@/components/Primitives";
 import { StatusBadge } from "@/components/StatusBadge";
 import { isDemo, demoGetNotifications } from "@/lib/demo";
 
@@ -43,7 +43,6 @@ function NotificationsPage() {
               className="flex items-start gap-3 py-2"
               style={{ borderBottom: "0.5px solid var(--border)" }}
             >
-              {isTip && <MascotImage size={28} className="mt-0.5 shrink-0" />}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-0.5">
                   {!n.read && <StatusBadge tone="blue">New</StatusBadge>}

@@ -58,7 +58,7 @@ Each skill performs one specialised pedagogical task using observable learning e
 
 Recommendations require recurring evidence across skills rather than an isolated error — this prevents over-recommending off a single event.
 
-The pedagogical framework is informed by evidence-based numeracy intervention approaches, including the work of Ronit Bird on dyscalculia and foundational number sense. The AI skills and synthesis model are AH's own implementation.[1]
+The pedagogical framework is informed by evidence-based numeracy intervention approaches, including the work of **Ronit Bird** on dyscalculia and foundational number sense. The AI skills and synthesis model are AH's own implementation.[1]
 
 **Synthesis Layer:** consolidates the five outputs into `biggest_success`, `biggest_obstacle`, `progression_ready`, and `next_session_focus` — the fields driving the tutor and parent report views.
 

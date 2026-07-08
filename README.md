@@ -132,6 +132,7 @@ This is a single-tutor, single-student pilot, not a multi-tenant product yet. It
 - Dynamic skill selection based on transcript evidence
 - Cross-session mastery and retention integration
 - Automated human-review workflow
+- Automatic PII redaction before AI analysis to protect student privacy
 
 ## Technology Stack
 
@@ -179,3 +180,11 @@ docs/            # Synthesis layer design, learning taxonomy
 Today, AH analyses individual tutoring sessions. The next stage is longitudinal learning intelligence — synthesising evidence across many sessions to help tutors understand mastery progression, retention, intervention effectiveness, and long-term learning outcomes.
 
 AH introduces Numeracy Learning Intelligence — a new approach to making learning progress visible through structured educational reasoning.
+
+## Social Impact
+
+AH is designed to support an underserved population of children with dyscalculia and foundational maths learning difficulties by enabling evidence-based decisions on core numeracy foundations. Dyscalculia affects an estimated 3–7% of children worldwide but remains significantly under-recognised.[1]
+
+## References
+
+1. Haberstroh, S., & Schulte-Körne, G. (2019). *The Diagnosis and Treatment of Dyscalculia*. Deutsches Ärzteblatt International, 116(7), 107–114. https://doi.org/10.3238/arztebl.2019.0107

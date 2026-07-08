@@ -129,8 +129,9 @@ This is a single-tutor, single-student pilot, not a multi-tenant product yet. It
 **Future Capability:**
 - Multi-session trend analysis (mastery progression, retention curves across sessions)
 - Multi-tutor / multi-student admin management
-- Agent-orchestration and tool-calling layer
-- Automated human-review gate before a report reaches a parent
+- Dynamic skill selection based on transcript evidence
+- Cross-session mastery and retention integration
+- Automated human-review workflow
 
 ## Technology Stack
 

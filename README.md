@@ -60,6 +60,8 @@ Recommendations require recurring evidence across skills rather than an isolated
 
 ## Example Output
 
+The synthesis layer combines evidence from all five AI skills into a structured output that can be stored, queried, and rendered consistently across tutor and parent views.
+
 Representative synthesis output, illustrating the schema used in the `session_analysis` table:
 
 ```json

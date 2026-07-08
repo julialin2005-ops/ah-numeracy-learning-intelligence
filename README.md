@@ -6,6 +6,10 @@
 
 AH is an AI-powered Numeracy Learning Intelligence platform that transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence, helping tutors understand what changed in every learning session.
 
+## Social Impact
+
+AH is designed to support an underserved population of children with dyscalculia and foundational maths learning difficulties by enabling evidence-based decisions on core numeracy foundations. Dyscalculia affects an estimated 3–7% of children worldwide but remains significantly under-recognised.[1]
+
 **Demo video:** https://youtu.be/3ECpq8yxhhI
 
 ---
@@ -58,7 +62,7 @@ Each skill performs one specialised pedagogical task using observable learning e
 
 Recommendations require recurring evidence across skills rather than an isolated error — this prevents over-recommending off a single event.
 
-The pedagogical framework is informed by evidence-based numeracy intervention approaches, including the work of **Ronit Bird** on dyscalculia and foundational number sense. The AI skills and synthesis model are AH's own implementation.[1]
+The pedagogical framework is informed by evidence-based numeracy intervention approaches, including the work of **Ronit Bird** on dyscalculia and foundational number sense. The AI skills and synthesis model are AH's own implementation.[2]
 
 **Synthesis Layer:** consolidates the five outputs into `biggest_success`, `biggest_obstacle`, `progression_ready`, and `next_session_focus` — the fields driving the tutor and parent report views.
 
@@ -183,12 +187,11 @@ Today, AH analyses individual tutoring sessions. The next stage is longitudinal 
 
 AH introduces Numeracy Learning Intelligence — a new approach to making learning progress visible through structured educational reasoning.
 
-## Social Impact
-
-AH is designed to support an underserved population of children with dyscalculia and foundational maths learning difficulties by enabling evidence-based decisions on core numeracy foundations. Dyscalculia affects an estimated 3–7% of children worldwide but remains significantly under-recognised.[2]
 
 ## References
 
-1. Bird, R. (2021). *The Dyscalculia Toolkit: Supporting Learning Difficulties in Maths* (2nd ed.). SAGE Publications.
+1. Haberstroh, S., & Schulte-Körne, G. (2019). *The Diagnosis and Treatment of Dyscalculia*. Deutsches Ärzteblatt International, 116(7), 107–114. https://doi.org/10.3238/arztebl.2019.0107
 
-2. Haberstroh, S., & Schulte-Körne, G. (2019). *The Diagnosis and Treatment of Dyscalculia*. Deutsches Ärzteblatt International, 116(7), 107–114. https://doi.org/10.3238/arztebl.2019.0107
+2. Bird, R. (2021). *The Dyscalculia Toolkit: Supporting Learning Difficulties in Maths* (2nd ed.). SAGE Publications.
+
+

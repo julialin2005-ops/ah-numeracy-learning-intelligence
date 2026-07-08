@@ -2,7 +2,9 @@
 
 **Google × Kaggle AI Agents Capstone Project (2026)**
 
-AH transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence — helping tutors understand what changed in every learning session.
+**Introducing a new category: _Numeracy Learning Intelligence_**
+
+AH transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence...
 
 **Demo video:** https://youtu.be/3ECpq8yxhhI
 
@@ -59,6 +61,8 @@ Recommendations require recurring evidence across skills rather than an isolated
 **Synthesis Layer:** consolidates the five outputs into `biggest_success`, `biggest_obstacle`, `progression_ready`, and `next_session_focus` — the fields driving the tutor and parent report views.
 
 ## Example Output
+
+The synthesis layer combines evidence from all five AI skills into a structured output that can be stored, queried, and rendered consistently across tutor and parent views.
 
 Representative synthesis output, illustrating the schema used in the `session_analysis` table:
 

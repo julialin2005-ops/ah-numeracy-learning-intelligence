@@ -10,7 +10,7 @@ AH is an AI-powered Numeracy Learning Intelligence platform that transforms dysc
 
 ## Social Impact
 
-AH is designed to support an underserved population of children with dyscalculia and foundational maths learning difficulties by enabling evidence-based decisions on core numeracy foundations. Dyscalculia affects an estimated 3–7% of children worldwide but remains significantly under-recognised.[1]
+AH is designed to support an underserved population of children with dyscalculia and foundational maths learning difficulties by enabling evidence-based decisions on core numeracy foundations. >Dyscalculia affects an estimated 3–7% of children worldwide but remains significantly under-recognised.[1]
 
 ---
 

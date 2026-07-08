@@ -4,7 +4,7 @@
 
 **Introducing a new category: _Numeracy Learning Intelligence_**
 
-AH transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence...
+AH is an AI-powered Numeracy Learning Intelligence platform that transforms dyscalculia tutoring transcripts into structured, evidence-based learning intelligence, helping tutors understand what changed in every learning session.
 
 **Demo video:** https://youtu.be/3ECpq8yxhhI
 
